@@ -13,7 +13,6 @@ class TableViewController: UITableViewController {
     let reuseIdentifier = "friendCell"
     var thrillerAlbum: [Song] = []
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         createThrillerAlbum()
